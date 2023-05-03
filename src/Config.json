@@ -1,0 +1,22 @@
+{
+    "urlMonitoringBaseUrl": "http://localhost/URLMonitoringAPI/",
+    "axiosConfig": {
+        "headers": {
+            "Access-Control-Expose-Headers": "x-pagination",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Max-Age": "1800",
+            "Access-Control-Allow-Headers": "content-type,server,x-pagination",
+            "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
+          }
+    },
+    "Pagination": {
+        "PageSize": 5
+    },
+    "Mask": "****************",
+    "ENVOPTTYPE": {
+        "Text": { "Key": "text", "Value": 1},
+        "Secret": { "Key": "password", "Value": 2}
+    },
+    "Salt": "PB69a2d2e1@3f38$4c17$89c9*df63716165c2"
+}
